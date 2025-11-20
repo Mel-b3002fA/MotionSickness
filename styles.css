@@ -12,6 +12,7 @@
     max-width: 99vw;
     padding-left: 5vw;
     padding-right: 3vw;
+    margin-top: 4vh;
 }
 
 .header-div{
@@ -37,4 +38,21 @@
    text-transform: uppercase;
    font-size: 13px;
 
+}
+
+.minilist{
+    width: 99vw;
+    display: flex;
+    justify-content: start;
+}
+.minilist-list{
+display: flex;
+    padding-left: 3.6vw;
+    padding-right: 3vw;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.minilist-list-item{
+    color: var(--textcolor);
 }
