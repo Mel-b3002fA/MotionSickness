@@ -1,0 +1,40 @@
+*{
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    list-style: none;
+}
+
+:root{
+    --textcolor:blue;
+}
+
+.header{
+    max-width: 99vw;
+    padding-left: 5vw;
+    padding-right: 3vw;
+}
+
+.header-div{
+    display: flex;
+    justify-content: space-between;
+}
+.header-intro-para{
+    color: var(--textcolor);
+    width: 20vw;
+    font-size: 20px;
+}
+
+.header-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 20vw;
+    color: var(--textcolor);
+}
+
+.header-list-item{
+   font-style: italic;
+   text-transform: uppercase;
+   font-size: 13px;
+
+}
